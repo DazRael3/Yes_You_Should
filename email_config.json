@@ -1,0 +1,7 @@
+{
+  "smtp_server": "smtp.office365.com",
+  "smtp_port": 587,
+  "from_email": "your_Email_here",
+  "to_email": "your_Email_here",
+  "password": "your_app_password_here"
+}
