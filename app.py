@@ -1,3 +1,13 @@
+import json
+with open("secrets.json", "r") as f:
+    secrets = json.load(f)
+
+APP_ID = secrets["app_id"]
+DEV_ID = secrets["dev_id"]
+CERT_ID = secrets["cert_id"]
+EMAIL = secrets["email"]
+PASSWORD = secrets["password"]
+
 import streamlit as st
 from utils import generate_description, mock_ebay_price_comparison
 
